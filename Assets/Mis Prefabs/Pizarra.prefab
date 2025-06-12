@@ -119,6 +119,7 @@ GameObject:
   - component: {fileID: 8277941538563238910}
   - component: {fileID: 6513938704686966944}
   - component: {fileID: 3121645669111632328}
+  - component: {fileID: 666712905099246458}
   m_Layer: 0
   m_Name: Pizarra
   m_TagString: Untagged
@@ -393,3 +394,17 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+--- !u!114 &666712905099246458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 431208446903695905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5dfcf204b88c694c9d480d644da2d02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  zoomSpeed: 1
+  rotationSpeed: 30
