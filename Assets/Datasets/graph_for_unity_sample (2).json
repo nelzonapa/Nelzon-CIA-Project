@@ -1,0 +1,722 @@
+{
+  "nodes": [
+    {
+      "id": "Week-of-Mon-20040329-4.txt_85",
+      "group": 0,
+      "entities": [
+        "GPE",
+        "CARDINAL",
+        "NORP",
+        "ORG",
+        "PERSON",
+        "DATE",
+        "ECOTERRORISM"
+      ]
+    },
+    {
+      "id": "Week-of-Mon-20040412-1.txt_36",
+      "group": 0,
+      "entities": [
+        "GPE",
+        "WORK_OF_ART",
+        "CARDINAL",
+        "ORG",
+        "PERSON",
+        "DATE"
+      ]
+    },
+    {
+      "id": "Week-of-Mon-20040614-2.txt_64",
+      "group": 0,
+      "entities": [
+        "GPE",
+        "QUANTITY",
+        "MONEY",
+        "DATE",
+        "ORG",
+        "PRODUCT",
+        "PERSON",
+        "LOC"
+      ]
+    },
+    {
+      "id": "Week-of-Mon-20040119-6.txt_34",
+      "group": 0,
+      "entities": [
+        "GPE",
+        "CARDINAL",
+        "ORG",
+        "PERSON",
+        "DATE"
+      ]
+    },
+    {
+      "id": "Week-of-Mon-20040412-3.txt_7",
+      "group": 0,
+      "entities": [
+        "DATE",
+        "NORP",
+        "GPE",
+        "ORG"
+      ]
+    },
+    {
+      "id": "Week-of-Mon-20040614.txt_27",
+      "group": 0,
+      "entities": [
+        "GPE",
+        "PERCENT",
+        "CARDINAL",
+        "WORK_OF_ART",
+        "NORP",
+        "MONEY",
+        "ORG",
+        "PERSON",
+        "DATE",
+        "ECOTERRORISM",
+        "LOC",
+        "FAC"
+      ]
+    },
+    {
+      "id": "Week-of-Mon-20031215-1.txt_91",
+      "group": 0,
+      "entities": [
+        "GPE",
+        "ORG",
+        "PERSON",
+        "SMUGGLING",
+        "LOC"
+      ]
+    },
+    {
+      "id": "Week-of-Mon-20040614-2.txt_34",
+      "group": 0,
+      "entities": [
+        "GPE",
+        "CARDINAL",
+        "DATE",
+        "PERSON",
+        "ORG"
+      ]
+    },
+    {
+      "id": "Week-of-Mon-20030526-2.txt_51",
+      "group": 0,
+      "entities": [
+        "DATE",
+        "PERSON",
+        "ORG",
+        "CARDINAL"
+      ]
+    },
+    {
+      "id": "Week-of-Mon-20040216-2.txt_30",
+      "group": 0,
+      "entities": [
+        "GPE",
+        "QUANTITY",
+        "CARDINAL",
+        "DATE",
+        "PERSON",
+        "ORG",
+        "TIME",
+        "ORDINAL"
+      ]
+    },
+    {
+      "id": "Week-of-Mon-20040202-3.txt_64",
+      "group": 0,
+      "entities": [
+        "EVENT",
+        "WORK_OF_ART",
+        "CARDINAL",
+        "NORP",
+        "ORG",
+        "DATE",
+        "TIME",
+        "ORDINAL"
+      ]
+    },
+    {
+      "id": "Week-of-Mon-20040209-2.txt_103",
+      "group": 0,
+      "entities": [
+        "GPE",
+        "CARDINAL",
+        "NORP",
+        "DATE",
+        "ORG",
+        "PERSON"
+      ]
+    },
+    {
+      "id": "Week-of-Mon-20031006.txt_10",
+      "group": 0,
+      "entities": [
+        "GPE",
+        "QUANTITY",
+        "CARDINAL",
+        "ORG",
+        "PERSON",
+        "DATE",
+        "LOC"
+      ]
+    },
+    {
+      "id": "Week-of-Mon-20030602-1.txt_63",
+      "group": 0,
+      "entities": [
+        "GPE",
+        "WORK_OF_ART",
+        "CARDINAL",
+        "NORP",
+        "MONEY",
+        "DATE",
+        "PRODUCT",
+        "ORG",
+        "LOC"
+      ]
+    },
+    {
+      "id": "Week-of-Mon-20040223-2.txt_24",
+      "group": 0,
+      "entities": [
+        "GPE",
+        "CARDINAL",
+        "NORP",
+        "ORG",
+        "DATE",
+        "PERSON",
+        "LOC"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "Week-of-Mon-20040329-4.txt_85",
+      "target": "Week-of-Mon-20040412-1.txt_36",
+      "weight": 5
+    },
+    {
+      "source": "Week-of-Mon-20040329-4.txt_85",
+      "target": "Week-of-Mon-20040614-2.txt_64",
+      "weight": 4
+    },
+    {
+      "source": "Week-of-Mon-20040329-4.txt_85",
+      "target": "Week-of-Mon-20040119-6.txt_34",
+      "weight": 5
+    },
+    {
+      "source": "Week-of-Mon-20040329-4.txt_85",
+      "target": "Week-of-Mon-20040412-3.txt_7",
+      "weight": 4
+    },
+    {
+      "source": "Week-of-Mon-20040329-4.txt_85",
+      "target": "Week-of-Mon-20040614.txt_27",
+      "weight": 7
+    },
+    {
+      "source": "Week-of-Mon-20040329-4.txt_85",
+      "target": "Week-of-Mon-20031215-1.txt_91",
+      "weight": 3
+    },
+    {
+      "source": "Week-of-Mon-20040329-4.txt_85",
+      "target": "Week-of-Mon-20040614-2.txt_34",
+      "weight": 5
+    },
+    {
+      "source": "Week-of-Mon-20040329-4.txt_85",
+      "target": "Week-of-Mon-20040216-2.txt_30",
+      "weight": 5
+    },
+    {
+      "source": "Week-of-Mon-20040329-4.txt_85",
+      "target": "Week-of-Mon-20040209-2.txt_103",
+      "weight": 6
+    },
+    {
+      "source": "Week-of-Mon-20040329-4.txt_85",
+      "target": "Week-of-Mon-20031006.txt_10",
+      "weight": 5
+    },
+    {
+      "source": "Week-of-Mon-20040329-4.txt_85",
+      "target": "Week-of-Mon-20030602-1.txt_63",
+      "weight": 5
+    },
+    {
+      "source": "Week-of-Mon-20040329-4.txt_85",
+      "target": "Week-of-Mon-20040223-2.txt_24",
+      "weight": 6
+    },
+    {
+      "source": "Week-of-Mon-20040329-4.txt_85",
+      "target": "Week-of-Mon-20030526-2.txt_51",
+      "weight": 4
+    },
+    {
+      "source": "Week-of-Mon-20040329-4.txt_85",
+      "target": "Week-of-Mon-20040202-3.txt_64",
+      "weight": 4
+    },
+    {
+      "source": "Week-of-Mon-20040412-1.txt_36",
+      "target": "Week-of-Mon-20040614-2.txt_64",
+      "weight": 4
+    },
+    {
+      "source": "Week-of-Mon-20040412-1.txt_36",
+      "target": "Week-of-Mon-20040119-6.txt_34",
+      "weight": 5
+    },
+    {
+      "source": "Week-of-Mon-20040412-1.txt_36",
+      "target": "Week-of-Mon-20040412-3.txt_7",
+      "weight": 3
+    },
+    {
+      "source": "Week-of-Mon-20040412-1.txt_36",
+      "target": "Week-of-Mon-20040614.txt_27",
+      "weight": 6
+    },
+    {
+      "source": "Week-of-Mon-20040412-1.txt_36",
+      "target": "Week-of-Mon-20031215-1.txt_91",
+      "weight": 3
+    },
+    {
+      "source": "Week-of-Mon-20040412-1.txt_36",
+      "target": "Week-of-Mon-20040614-2.txt_34",
+      "weight": 5
+    },
+    {
+      "source": "Week-of-Mon-20040412-1.txt_36",
+      "target": "Week-of-Mon-20040216-2.txt_30",
+      "weight": 5
+    },
+    {
+      "source": "Week-of-Mon-20040412-1.txt_36",
+      "target": "Week-of-Mon-20040209-2.txt_103",
+      "weight": 5
+    },
+    {
+      "source": "Week-of-Mon-20040412-1.txt_36",
+      "target": "Week-of-Mon-20031006.txt_10",
+      "weight": 5
+    },
+    {
+      "source": "Week-of-Mon-20040412-1.txt_36",
+      "target": "Week-of-Mon-20030602-1.txt_63",
+      "weight": 5
+    },
+    {
+      "source": "Week-of-Mon-20040412-1.txt_36",
+      "target": "Week-of-Mon-20040223-2.txt_24",
+      "weight": 5
+    },
+    {
+      "source": "Week-of-Mon-20040412-1.txt_36",
+      "target": "Week-of-Mon-20030526-2.txt_51",
+      "weight": 4
+    },
+    {
+      "source": "Week-of-Mon-20040412-1.txt_36",
+      "target": "Week-of-Mon-20040202-3.txt_64",
+      "weight": 4
+    },
+    {
+      "source": "Week-of-Mon-20040614-2.txt_64",
+      "target": "Week-of-Mon-20040119-6.txt_34",
+      "weight": 4
+    },
+    {
+      "source": "Week-of-Mon-20040614-2.txt_64",
+      "target": "Week-of-Mon-20040412-3.txt_7",
+      "weight": 3
+    },
+    {
+      "source": "Week-of-Mon-20040614-2.txt_64",
+      "target": "Week-of-Mon-20040614.txt_27",
+      "weight": 6
+    },
+    {
+      "source": "Week-of-Mon-20040614-2.txt_64",
+      "target": "Week-of-Mon-20031215-1.txt_91",
+      "weight": 4
+    },
+    {
+      "source": "Week-of-Mon-20040614-2.txt_64",
+      "target": "Week-of-Mon-20040614-2.txt_34",
+      "weight": 4
+    },
+    {
+      "source": "Week-of-Mon-20040614-2.txt_64",
+      "target": "Week-of-Mon-20040216-2.txt_30",
+      "weight": 5
+    },
+    {
+      "source": "Week-of-Mon-20040614-2.txt_64",
+      "target": "Week-of-Mon-20040209-2.txt_103",
+      "weight": 4
+    },
+    {
+      "source": "Week-of-Mon-20040614-2.txt_64",
+      "target": "Week-of-Mon-20031006.txt_10",
+      "weight": 6
+    },
+    {
+      "source": "Week-of-Mon-20040614-2.txt_64",
+      "target": "Week-of-Mon-20030602-1.txt_63",
+      "weight": 6
+    },
+    {
+      "source": "Week-of-Mon-20040614-2.txt_64",
+      "target": "Week-of-Mon-20040223-2.txt_24",
+      "weight": 5
+    },
+    {
+      "source": "Week-of-Mon-20040614-2.txt_64",
+      "target": "Week-of-Mon-20030526-2.txt_51",
+      "weight": 3
+    },
+    {
+      "source": "Week-of-Mon-20040614-2.txt_64",
+      "target": "Week-of-Mon-20040202-3.txt_64",
+      "weight": 2
+    },
+    {
+      "source": "Week-of-Mon-20040119-6.txt_34",
+      "target": "Week-of-Mon-20040412-3.txt_7",
+      "weight": 3
+    },
+    {
+      "source": "Week-of-Mon-20040119-6.txt_34",
+      "target": "Week-of-Mon-20040614.txt_27",
+      "weight": 5
+    },
+    {
+      "source": "Week-of-Mon-20040119-6.txt_34",
+      "target": "Week-of-Mon-20031215-1.txt_91",
+      "weight": 3
+    },
+    {
+      "source": "Week-of-Mon-20040119-6.txt_34",
+      "target": "Week-of-Mon-20040614-2.txt_34",
+      "weight": 5
+    },
+    {
+      "source": "Week-of-Mon-20040119-6.txt_34",
+      "target": "Week-of-Mon-20040216-2.txt_30",
+      "weight": 5
+    },
+    {
+      "source": "Week-of-Mon-20040119-6.txt_34",
+      "target": "Week-of-Mon-20040209-2.txt_103",
+      "weight": 5
+    },
+    {
+      "source": "Week-of-Mon-20040119-6.txt_34",
+      "target": "Week-of-Mon-20031006.txt_10",
+      "weight": 5
+    },
+    {
+      "source": "Week-of-Mon-20040119-6.txt_34",
+      "target": "Week-of-Mon-20030602-1.txt_63",
+      "weight": 4
+    },
+    {
+      "source": "Week-of-Mon-20040119-6.txt_34",
+      "target": "Week-of-Mon-20040223-2.txt_24",
+      "weight": 5
+    },
+    {
+      "source": "Week-of-Mon-20040119-6.txt_34",
+      "target": "Week-of-Mon-20030526-2.txt_51",
+      "weight": 4
+    },
+    {
+      "source": "Week-of-Mon-20040119-6.txt_34",
+      "target": "Week-of-Mon-20040202-3.txt_64",
+      "weight": 3
+    },
+    {
+      "source": "Week-of-Mon-20040412-3.txt_7",
+      "target": "Week-of-Mon-20040614.txt_27",
+      "weight": 4
+    },
+    {
+      "source": "Week-of-Mon-20040412-3.txt_7",
+      "target": "Week-of-Mon-20031215-1.txt_91",
+      "weight": 2
+    },
+    {
+      "source": "Week-of-Mon-20040412-3.txt_7",
+      "target": "Week-of-Mon-20040614-2.txt_34",
+      "weight": 3
+    },
+    {
+      "source": "Week-of-Mon-20040412-3.txt_7",
+      "target": "Week-of-Mon-20040216-2.txt_30",
+      "weight": 3
+    },
+    {
+      "source": "Week-of-Mon-20040412-3.txt_7",
+      "target": "Week-of-Mon-20040209-2.txt_103",
+      "weight": 4
+    },
+    {
+      "source": "Week-of-Mon-20040412-3.txt_7",
+      "target": "Week-of-Mon-20031006.txt_10",
+      "weight": 3
+    },
+    {
+      "source": "Week-of-Mon-20040412-3.txt_7",
+      "target": "Week-of-Mon-20030602-1.txt_63",
+      "weight": 4
+    },
+    {
+      "source": "Week-of-Mon-20040412-3.txt_7",
+      "target": "Week-of-Mon-20040223-2.txt_24",
+      "weight": 4
+    },
+    {
+      "source": "Week-of-Mon-20040412-3.txt_7",
+      "target": "Week-of-Mon-20040202-3.txt_64",
+      "weight": 3
+    },
+    {
+      "source": "Week-of-Mon-20040412-3.txt_7",
+      "target": "Week-of-Mon-20030526-2.txt_51",
+      "weight": 2
+    },
+    {
+      "source": "Week-of-Mon-20040614.txt_27",
+      "target": "Week-of-Mon-20031215-1.txt_91",
+      "weight": 4
+    },
+    {
+      "source": "Week-of-Mon-20040614.txt_27",
+      "target": "Week-of-Mon-20040614-2.txt_34",
+      "weight": 5
+    },
+    {
+      "source": "Week-of-Mon-20040614.txt_27",
+      "target": "Week-of-Mon-20040216-2.txt_30",
+      "weight": 5
+    },
+    {
+      "source": "Week-of-Mon-20040614.txt_27",
+      "target": "Week-of-Mon-20040209-2.txt_103",
+      "weight": 6
+    },
+    {
+      "source": "Week-of-Mon-20040614.txt_27",
+      "target": "Week-of-Mon-20031006.txt_10",
+      "weight": 6
+    },
+    {
+      "source": "Week-of-Mon-20040614.txt_27",
+      "target": "Week-of-Mon-20030602-1.txt_63",
+      "weight": 8
+    },
+    {
+      "source": "Week-of-Mon-20040614.txt_27",
+      "target": "Week-of-Mon-20040223-2.txt_24",
+      "weight": 7
+    },
+    {
+      "source": "Week-of-Mon-20040614.txt_27",
+      "target": "Week-of-Mon-20030526-2.txt_51",
+      "weight": 4
+    },
+    {
+      "source": "Week-of-Mon-20040614.txt_27",
+      "target": "Week-of-Mon-20040202-3.txt_64",
+      "weight": 5
+    },
+    {
+      "source": "Week-of-Mon-20031215-1.txt_91",
+      "target": "Week-of-Mon-20040614-2.txt_34",
+      "weight": 3
+    },
+    {
+      "source": "Week-of-Mon-20031215-1.txt_91",
+      "target": "Week-of-Mon-20040216-2.txt_30",
+      "weight": 3
+    },
+    {
+      "source": "Week-of-Mon-20031215-1.txt_91",
+      "target": "Week-of-Mon-20040209-2.txt_103",
+      "weight": 3
+    },
+    {
+      "source": "Week-of-Mon-20031215-1.txt_91",
+      "target": "Week-of-Mon-20031006.txt_10",
+      "weight": 4
+    },
+    {
+      "source": "Week-of-Mon-20031215-1.txt_91",
+      "target": "Week-of-Mon-20030602-1.txt_63",
+      "weight": 3
+    },
+    {
+      "source": "Week-of-Mon-20031215-1.txt_91",
+      "target": "Week-of-Mon-20040223-2.txt_24",
+      "weight": 4
+    },
+    {
+      "source": "Week-of-Mon-20031215-1.txt_91",
+      "target": "Week-of-Mon-20030526-2.txt_51",
+      "weight": 2
+    },
+    {
+      "source": "Week-of-Mon-20031215-1.txt_91",
+      "target": "Week-of-Mon-20040202-3.txt_64",
+      "weight": 1
+    },
+    {
+      "source": "Week-of-Mon-20040614-2.txt_34",
+      "target": "Week-of-Mon-20040216-2.txt_30",
+      "weight": 5
+    },
+    {
+      "source": "Week-of-Mon-20040614-2.txt_34",
+      "target": "Week-of-Mon-20040209-2.txt_103",
+      "weight": 5
+    },
+    {
+      "source": "Week-of-Mon-20040614-2.txt_34",
+      "target": "Week-of-Mon-20031006.txt_10",
+      "weight": 5
+    },
+    {
+      "source": "Week-of-Mon-20040614-2.txt_34",
+      "target": "Week-of-Mon-20030602-1.txt_63",
+      "weight": 4
+    },
+    {
+      "source": "Week-of-Mon-20040614-2.txt_34",
+      "target": "Week-of-Mon-20040223-2.txt_24",
+      "weight": 5
+    },
+    {
+      "source": "Week-of-Mon-20040614-2.txt_34",
+      "target": "Week-of-Mon-20030526-2.txt_51",
+      "weight": 4
+    },
+    {
+      "source": "Week-of-Mon-20040614-2.txt_34",
+      "target": "Week-of-Mon-20040202-3.txt_64",
+      "weight": 3
+    },
+    {
+      "source": "Week-of-Mon-20030526-2.txt_51",
+      "target": "Week-of-Mon-20040216-2.txt_30",
+      "weight": 4
+    },
+    {
+      "source": "Week-of-Mon-20030526-2.txt_51",
+      "target": "Week-of-Mon-20040202-3.txt_64",
+      "weight": 3
+    },
+    {
+      "source": "Week-of-Mon-20030526-2.txt_51",
+      "target": "Week-of-Mon-20040209-2.txt_103",
+      "weight": 4
+    },
+    {
+      "source": "Week-of-Mon-20030526-2.txt_51",
+      "target": "Week-of-Mon-20031006.txt_10",
+      "weight": 4
+    },
+    {
+      "source": "Week-of-Mon-20030526-2.txt_51",
+      "target": "Week-of-Mon-20030602-1.txt_63",
+      "weight": 3
+    },
+    {
+      "source": "Week-of-Mon-20030526-2.txt_51",
+      "target": "Week-of-Mon-20040223-2.txt_24",
+      "weight": 4
+    },
+    {
+      "source": "Week-of-Mon-20040216-2.txt_30",
+      "target": "Week-of-Mon-20040209-2.txt_103",
+      "weight": 5
+    },
+    {
+      "source": "Week-of-Mon-20040216-2.txt_30",
+      "target": "Week-of-Mon-20031006.txt_10",
+      "weight": 6
+    },
+    {
+      "source": "Week-of-Mon-20040216-2.txt_30",
+      "target": "Week-of-Mon-20030602-1.txt_63",
+      "weight": 4
+    },
+    {
+      "source": "Week-of-Mon-20040216-2.txt_30",
+      "target": "Week-of-Mon-20040223-2.txt_24",
+      "weight": 5
+    },
+    {
+      "source": "Week-of-Mon-20040216-2.txt_30",
+      "target": "Week-of-Mon-20040202-3.txt_64",
+      "weight": 5
+    },
+    {
+      "source": "Week-of-Mon-20040202-3.txt_64",
+      "target": "Week-of-Mon-20040209-2.txt_103",
+      "weight": 4
+    },
+    {
+      "source": "Week-of-Mon-20040202-3.txt_64",
+      "target": "Week-of-Mon-20031006.txt_10",
+      "weight": 3
+    },
+    {
+      "source": "Week-of-Mon-20040202-3.txt_64",
+      "target": "Week-of-Mon-20030602-1.txt_63",
+      "weight": 5
+    },
+    {
+      "source": "Week-of-Mon-20040202-3.txt_64",
+      "target": "Week-of-Mon-20040223-2.txt_24",
+      "weight": 4
+    },
+    {
+      "source": "Week-of-Mon-20040209-2.txt_103",
+      "target": "Week-of-Mon-20031006.txt_10",
+      "weight": 5
+    },
+    {
+      "source": "Week-of-Mon-20040209-2.txt_103",
+      "target": "Week-of-Mon-20030602-1.txt_63",
+      "weight": 5
+    },
+    {
+      "source": "Week-of-Mon-20040209-2.txt_103",
+      "target": "Week-of-Mon-20040223-2.txt_24",
+      "weight": 6
+    },
+    {
+      "source": "Week-of-Mon-20031006.txt_10",
+      "target": "Week-of-Mon-20030602-1.txt_63",
+      "weight": 5
+    },
+    {
+      "source": "Week-of-Mon-20031006.txt_10",
+      "target": "Week-of-Mon-20040223-2.txt_24",
+      "weight": 6
+    },
+    {
+      "source": "Week-of-Mon-20030602-1.txt_63",
+      "target": "Week-of-Mon-20040223-2.txt_24",
+      "weight": 6
+    }
+  ]
+}
