@@ -88,9 +88,24 @@ public class NodeBehaviour : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
 
     private void ShowDetails()
     {
+        
         if (detailsPanel != null)
         {
+            // Posiciona el panel 0.5m a la derecha del nodo
+            Vector3 panelPosition = transform.position + transform.right * 0.5f;
+            detailsPanel.transform.position = panelPosition;
+
+            // Orientación hacia la cámara
+            detailsPanel.transform.LookAt(Camera.main.transform);
+            detailsPanel.transform.rotation = Quaternion.LookRotation(
+                detailsPanel.transform.position - Camera.main.transform.position);
+
+            // Mostrar panel
             detailsPanel.ShowDetails(id, group, entities, transform.position);
+        }
+        else
+        {
+            Debug.LogError("DetailsPanel no asignado en el Inspector", this);
         }
     }
 
