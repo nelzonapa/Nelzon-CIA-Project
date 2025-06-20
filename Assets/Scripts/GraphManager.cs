@@ -16,6 +16,9 @@ public class GraphManager : MonoBehaviour
     public float repulsion = 1f;
     public float attraction = 0.1f;
 
+    [Header("UI")]
+    public GameObject detailsPanelPrefab; // Arrástralo desde el Inspector
+
     private GraphData graph;
     private Dictionary<string, NodeBehaviour> nodeDict;
     private int numCommunities;
@@ -80,11 +83,6 @@ public class GraphManager : MonoBehaviour
             nb.group = nd.group;
             nb.entities = nd.entities;
 
-            if (nb.label != null)
-            {
-                nb.label.text = nd.id;
-            }
-
             var rendComp = go.GetComponent<Renderer>();
             if (rendComp != null)
             {
@@ -119,6 +117,17 @@ public class GraphManager : MonoBehaviour
         }
 
         Debug.Log($"🕸️ Grafo instanciado: {nodeDict.Count} nodos.");
+
+        // Instancia el panel de detalles
+        //GameObject detailsPanelPrefab = Resources.Load<GameObject>("DetailsPanel");
+        GameObject panelInstance = Instantiate(detailsPanelPrefab, Vector3.zero, Quaternion.identity);
+        panelInstance.SetActive(false);
+
+        // Asigna a todos los nodos
+        foreach (var node in nodeDict.Values)
+        {
+            node.detailsPanel = panelInstance.GetComponent<DetailsPanel>();
+        }
     }
 
     void Update()
