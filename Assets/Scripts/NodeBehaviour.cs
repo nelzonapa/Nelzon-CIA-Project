@@ -88,25 +88,46 @@ public class NodeBehaviour : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
 
     private void ShowDetails()
     {
-        
         if (detailsPanel != null)
         {
-            // Posiciona el panel 0.5m a la derecha del nodo
-            Vector3 panelPosition = transform.position + transform.right * 0.5f;
-            detailsPanel.transform.position = panelPosition;
+            // Posicionamiento relativo al HMD
+            Transform cameraTransform = Camera.main.transform;
+            detailsPanel.transform.position = cameraTransform.position +
+                                           cameraTransform.forward * 0.8f +
+                                           cameraTransform.right * 0.2f;
 
-            // Orientación hacia la cámara
-            detailsPanel.transform.LookAt(Camera.main.transform);
-            detailsPanel.transform.rotation = Quaternion.LookRotation(
-                detailsPanel.transform.position - Camera.main.transform.position);
+            // Orientación siempre frontal al usuario
+            detailsPanel.transform.LookAt(2 * detailsPanel.transform.position - cameraTransform.position);
 
-            // Mostrar panel
-            detailsPanel.ShowDetails(id, group, entities, transform.position);
+            // Forzar renderizado
+            Canvas canvas = detailsPanel.GetComponent<Canvas>();
+            canvas.enabled = false;
+            canvas.enabled = true;
+
+            // Debug visual inmediato
+            Debug.Log($"Panel visible en: {detailsPanel.transform.position}");
+            Debug.DrawLine(cameraTransform.position, detailsPanel.transform.position, Color.green, 5f);
         }
         else
         {
-            Debug.LogError("DetailsPanel no asignado en el Inspector", this);
+            Debug.LogError("DetailsPanel no asignado", this);
         }
+
+
+
     }
 
+    void Update()
+    {
+        if (detailsPanel != null && detailsPanel.gameObject.activeSelf)
+        {
+            // Posiciona el panel 0.5m frente al usuario
+            detailsPanel.transform.position = Camera.main.transform.position +
+                                           Camera.main.transform.forward * 0.5f;
+
+            // Orienta el panel hacia el usuario
+            detailsPanel.transform.LookAt(Camera.main.transform);
+            detailsPanel.transform.rotation *= Quaternion.Euler(0, 180f, 0); // Voltea el texto
+        }
+    }
 }

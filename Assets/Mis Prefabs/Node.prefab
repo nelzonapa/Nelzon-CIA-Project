@@ -104,7 +104,6 @@ MonoBehaviour:
   group: 0
   entities: []
   detailsPanel: {fileID: 8608778873368586487, guid: 52c5b614383cbf24bb347c67f4e4f8c1, type: 3}
-  label: {fileID: 0}
 --- !u!64 &810618965751836147
 MeshCollider:
   m_ObjectHideFlags: 0
