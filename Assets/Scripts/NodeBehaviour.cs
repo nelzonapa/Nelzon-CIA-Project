@@ -15,6 +15,38 @@ public class NodeBehaviour : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
 
     private XRGrabInteractable grabInteractable;
 
+    [Header("EMERGENCY FIX")]
+    public Transform panelAnchor; // Crea un hijo vacío en tu nodo y arrástralo aquí
+
+    private void ShowPanelNow()
+    {
+        if (detailsPanel == null) return;
+
+        // 1. Posicionamiento infalible
+        detailsPanel.transform.SetPositionAndRotation(
+            panelAnchor.position,
+            Quaternion.LookRotation(panelAnchor.position - Camera.main.transform.position)
+        );
+
+        // 2. Activación forzada
+        detailsPanel.gameObject.SetActive(true);
+        Canvas canvas = detailsPanel.GetComponent<Canvas>();
+        if (canvas != null)
+        {
+            canvas.worldCamera = Camera.main;
+            canvas.enabled = false;
+            canvas.enabled = true;
+        }
+
+        // 3. Debug visual
+        GameObject debugSphere = GameObject.CreatePrimitive(PrimitiveType.Capsule);
+        debugSphere.transform.position = panelAnchor.position;
+        debugSphere.transform.localScale = Vector3.one * 0.2f;
+        Destroy(debugSphere, 3f);
+
+        Debug.Log($"PANEL ACTIVADO EN: {panelAnchor.position}");
+    }
+
 
     void Awake()
     {
@@ -49,7 +81,7 @@ public class NodeBehaviour : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
     private void OnSelectEntered(SelectEnterEventArgs args)
     {
         Debug.Log("Selección VR en nodo: " + id);
-        ShowDetails();
+        ShowPanelNow();
     }
 
     private void OnHoverEnter(HoverEnterEventArgs args)
@@ -75,7 +107,7 @@ public class NodeBehaviour : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
     public void OnPointerClick(PointerEventData eventData)
     {
         Debug.Log("CLIC RECIBIDO EN " + gameObject.name); // Añade esto
-        ShowDetails();
+        ShowPanelNow();
     }
     void Start()
     {
